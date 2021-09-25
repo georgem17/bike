@@ -1,0 +1,40 @@
+.logo {
+  width: 15rem;
+  padding: 2rem 0rem 0rem 3rem;
+  background: transparent;
+}
+.topheader {
+  position: fixed;
+  width: 80%;
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150rem;
+}
+.seccion-uno {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.seccion-uno a {
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  line-height: 10rem;
+}
+.seccion-uno li {
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+}
+.container-all {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  background: white;
+  margin-top: 100px;
+  border-top: 6px solid #65d6a6;
+}

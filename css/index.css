@@ -1,0 +1,232 @@
+/*inports*/
+/*global*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 45%;
+  max-width: 150rem;
+  margin: 0 auto; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  color: black; }
+
+header {
+  height: auto; }
+
+h4 {
+  color: #ff4c29; }
+
+h2 {
+  padding: 5rem 4rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: black; }
+
+h3 {
+  padding: 5rem 7rem 0rem 6rem;
+  font-size: 2rem;
+  color: #ff4c29; }
+
+p {
+  padding: 2.0rem 7rem 0rem 6rem;
+  font-size: 1.9rem;
+  color: #2c394b; }
+
+div {
+  padding: 8rem 7rem 0rem 6rem;
+  font-size: 2rem;
+  color: #ff4c29; }
+
+body {
+  font-family: sans-serif;
+  font-size: 3rem; }
+
+.productos-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+
+.productos-img__principal {
+  width: 30rem; }
+
+/*partials*/
+.final {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); }
+
+.lista {
+  font-size: 2.5rem;
+  color: black;
+  padding: 3rem 0rem 0rem 6rem; }
+
+.red {
+  padding: 3rem 7rem 0rem 4.5rem; }
+
+.redes1 {
+  width: 50px;
+  padding: 0rem 0rem 3rem 0rem; }
+
+.redes {
+  width: 50px;
+  padding: 0rem 0rem 2rem 0rem; }
+
+.redes2 {
+  width: 70px;
+  padding: 0rem 0rem 3rem 0rem; }
+
+.logo {
+  width: 15rem;
+  padding: 2rem 0rem 0rem 3rem;
+  background: transparent; }
+
+.topheader {
+  position: fixed;
+  width: 80%;
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); }
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150rem; }
+
+.seccion-uno {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.seccion-uno a {
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  line-height: 10rem; }
+
+.seccion-uno li {
+  padding: 0rem 2rem;
+  font-size: 1.5rem; }
+
+.container-all {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  background: white;
+  margin-top: 100px;
+  border-top: 6px solid #65d6a6; }
+
+/*pages*/
+.his {
+  padding: 12rem 0rem 0rem 0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: black; }
+
+.caja img {
+  width: 30rem;
+  float: left;
+  margin-right: 3rem; }
+
+.evo {
+  width: 69rem;
+  justify-content: center; }
+
+.cin {
+  padding: 0rem 11rem 0rem 3rem; }
+
+.par {
+  margin: 0rem 0rem 20rem 0rem; }
+
+.video {
+  padding: 3rem 0rem 3rem 40rem; }
+
+iframe {
+  width: 500px; }
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04); }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 15rem 15rem 5rem 15rem;
+  grid-auto-flow: dense; }
+
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2; }
+  .tall {
+    grid-row: span 2; } }
+
+.modelos-estan__unico {
+  padding: 2rem 5rem 2rem;
+  color: #2c394b; }
+
+.casi {
+  margin: 0rem 0rem 29rem 0rem; }
+
+.catalogo-cara__contenido {
+  padding: 2rem 5rem 2rem;
+  color: #2c394b; }
+
+.reg {
+  width: 100%;
+  max-width: 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.anima img {
+  background: transparent;
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding: 0rem 0rem 5.5rem 0rem; }
+
+.anima {
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative; }
+
+@keyframes animacion {
+  25% {
+    -moz-transform: rotate(339deg);
+    -webkit-transform: rotate(339deg);
+    -o-transform: rotate(339deg);
+    -ms-transform: rotate(339deg);
+    transform: rotate(339deg); } }
+
+.pie {
+  padding: 0rem; }
+
+.fot {
+  color: black; }
+
+form {
+  padding: 3.5rem 0rem; }

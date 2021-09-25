@@ -1,0 +1,38 @@
+.reg {
+  width: 100%;
+  max-width: 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.anima img{
+  background: transparent;
+  width: 200px;
+  display:block;
+  margin:auto;
+  padding: 0rem 0rem 5.5rem 0rem;
+}
+.anima{
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative;
+}
+@keyframes animacion {
+  25%{-moz-transform: rotate(339deg);
+    -webkit-transform: rotate(339deg);
+    -o-transform: rotate(339deg);
+    -ms-transform: rotate(339deg);
+    transform: rotate(339deg);}
+}
+.pie{
+  padding: 0rem;
+}
+.fot{
+  color: black;
+}
+form {
+  padding: 3.5rem 0rem;
+}
